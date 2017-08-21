@@ -1,0 +1,15 @@
+Setting up the Workspace
+========================
+1. Download the submission, A5.tgz
+2. Run the following commands:
+    tar -xzvf A5.tgz
+    cd A5
+    virtualenv . -p python3
+    source bin/activate
+    pip install numpy scipy scikit-learn nltk==3.2.2 smart_open
+
+Running the Classifier
+======================
+1. Run the following command:
+    python3 MachineHumanClassifier.py
+2. Collect the results from A5.test.labeled
